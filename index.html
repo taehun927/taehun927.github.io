@@ -3,12 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <title>정태훈 포트폴리오</title>
+  <style>
+    body {
+      background-color: #f4f4f4;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 100px auto;
+      background-color: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      font-size: 18px;
+      color: #555;
+      margin-top: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 24px;
+      font-size: 16px;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+    }
+  </style>
 </head>
 <body>
-  <h1>정태훈의 포트폴리오에 오신 것을 환영합니다!</h1>
-  <p>아래 링크를 통해 실제 프로젝트를 확인해보세요.</p>
-  <p>
-    👉 <a href="http://54.253.237.37:8080" target="_blank">전자기기 쇼핑몰 프로젝트 보기</a>
-  </p>
+  <div class="container">
+    <h1>정태훈의 포트폴리오</h1>
+    <p>Spring Boot + AWS로 개발한 전자기기 쇼핑몰 프로젝트입니다.</p>
+    <a class="btn" href="http://54.253.237.37:8080" target="_blank">👉 프로젝트 바로가기</a>
+  </div>
 </body>
 </html>
+
